@@ -1,4 +1,4 @@
-export function btnModule(para2Echo) {
-console.log("Knapp två har också klickats på i testmodule.js, så att det, haom!")
-para2Echo.textContent = "Denna text har ersatts utav testmodule.js" 
+export function changePara(paraChange) {
+    console.log("Knapp 2 har klickats på.")
+    paraChange.textContent = "Texten har ändrats i testmodule.js"
 }
