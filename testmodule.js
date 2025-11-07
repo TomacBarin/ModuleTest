@@ -1,4 +1,4 @@
-export function changePara(paraChange) {
-    console.log("Knapp 2 har klickats på.")
-    paraChange.textContent = "Texten har ändrats i testmodule.js"
+export function textChange(changePara) {
+ console.log("Detta är från testmodule.js.");
+    changePara.textContent = "Denna text har ersatts av textmodule.js."
 }
